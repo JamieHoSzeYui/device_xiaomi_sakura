@@ -40,6 +40,9 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 872415232
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/tp_wakeup_gesture"
 
+# Props
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
